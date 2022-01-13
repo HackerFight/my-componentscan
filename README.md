@@ -2,8 +2,8 @@
  参考
  * @Service
  * @Repository
- * @Service <br>
- 注解，本质上都是 @Component 注解，所以我的这个@MyComponent 注解本质上也是 @Component 注解
+ * @Controller <br>
+ 注解，本质上都是 @Component 注解，所以我的这个 @MyComponent 注解本质上也是 @Component 注解
  
  
  ## 2. @MyComponent2 注解
