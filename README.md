@@ -1,4 +1,4 @@
-##1. @MyComponent 注解
+## 1. @MyComponent 注解
  参考
  * @Service
  * @Repository
@@ -6,17 +6,17 @@
  注解，本质上都是 @Component 注解，所以我的这个@MyComponent 注解本质上也是 @Component 注解
  
  
- ##2. @MyComponent2 注解
+ ## 2. @MyComponent2 注解
  这个注解是我真正意义上自定义的注解，那么如何生效呢？<br>
  请看 MyComponentScanRegister 类
  
  
- ##3. @MyComponentScan 注解
+ ## 3. @MyComponentScan 注解
  这个注解也是真正意义上的自定义注解，它又如何生效呢？<br>
  请看 MyComponentScanConfigure
  
  
- ##4.说明
+ ## 4.说明
  自定义注解如果生效，其实离不开spring 扫描功能的 ClassPathBeanDefinitionScanner 类
  这个类继承了 ClassPathScanningCandidateComponentProvider 类 <br>
  * 定义了扫描规则，就是Filter <br>
